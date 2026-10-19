@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "marketplaceName": "oxo-curated",
+  "plugins": {
+    "trivy": {
+      "version": "1.0.0",
+      "path": "packages/trivy/1.0.0/package.zip",
+      "archiveSha256": "2bd784e5c90800af29c0c550311f9a29edf27668f9f581719cd39674082aa395",
+      "archiveSize": 28201,
+      "treeSha256": "052105283ddab57f24f37d61ef78bf3a16ffb4e699dcbc7de13bea9a6f12d125",
+      "treeSize": 30498
+    },
+    "semgrep": {
+      "version": "1.2.0",
+      "path": "packages/semgrep/1.2.0/package.zip",
+      "archiveSha256": "655bbbb4f1d4cd03b86025629db5eabd694c759e1e83a70510e8804243fb86e5",
+      "archiveSize": 144186,
+      "treeSha256": "8f18eb66d41af4d59a01738ff394a530f1418fd570ffed6826849d09629c770a",
+      "treeSize": 766572
+    },
+    "nuclei": {
+      "version": "1.0.0",
+      "path": "packages/nuclei/1.0.0/package.zip",
+      "archiveSha256": "42e6670713fad1d6de8cfaabbc07c58a87be50b40c87cefd99f1d83ff9455b67",
+      "archiveSize": 2749,
+      "treeSha256": "a75572530ee6fc4890bd1c556b5897fbe956ed0949e3cd0a53e3a7d4d86c7cba",
+      "treeSize": 4039
+    }
+  }
+}
