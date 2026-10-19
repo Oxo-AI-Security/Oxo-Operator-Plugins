@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "marketplaceName": "oxo-curated",
+  "baseUrl": "https://raw.githubusercontent.com/Oxo-AI-Security/Oxo-Operator-Plugins/main/",
   "plugins": {
     "trivy": {
       "version": "1.0.0",
       "path": "packages/trivy/1.0.0/package.zip",
-      "archiveSha256": "2bd784e5c90800af29c0c550311f9a29edf27668f9f581719cd39674082aa395",
+      "archiveSha256": "7c9cb76978bf237a5c026002c3e512433e105ef019a64e59ba52786cc1a0c01c",
       "archiveSize": 28201,
       "treeSha256": "052105283ddab57f24f37d61ef78bf3a16ffb4e699dcbc7de13bea9a6f12d125",
       "treeSize": 30498
@@ -13,7 +14,7 @@
     "semgrep": {
       "version": "1.2.0",
       "path": "packages/semgrep/1.2.0/package.zip",
-      "archiveSha256": "655bbbb4f1d4cd03b86025629db5eabd694c759e1e83a70510e8804243fb86e5",
+      "archiveSha256": "d71f3c6258bd671e2ec1eff9bd0b5ec698a421faee9955cc9faada4cd9f9e890",
       "archiveSize": 144186,
       "treeSha256": "8f18eb66d41af4d59a01738ff394a530f1418fd570ffed6826849d09629c770a",
       "treeSize": 766572
@@ -21,7 +22,7 @@
     "nuclei": {
       "version": "1.0.0",
       "path": "packages/nuclei/1.0.0/package.zip",
-      "archiveSha256": "42e6670713fad1d6de8cfaabbc07c58a87be50b40c87cefd99f1d83ff9455b67",
+      "archiveSha256": "5be00fa30942b2fd60b58a53b0b684a4d5a42bfaa158fb4c84cadc29e7a37049",
       "archiveSize": 2749,
       "treeSha256": "a75572530ee6fc4890bd1c556b5897fbe956ed0949e3cd0a53e3a7d4d86c7cba",
       "treeSize": 4039
