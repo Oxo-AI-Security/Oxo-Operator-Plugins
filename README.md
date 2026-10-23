@@ -36,3 +36,9 @@ Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packag
 Runs locally using the current task model. Requires Python 3.11 or newer with the scanner dependencies configured; plugin installation downloads the package only.
 
 [risk-scanner 0.3.3-oxo.1 package](packages/risk-scanner/0.3.3-oxo.1/package.zip).
+
+## CVSS Assistant
+
+Assess vulnerabilities with CVSS 4.0. AI proposes metric selections and explains the supporting facts or assumptions; the pinned FIRST reference implementation calculates the score. Change metrics in an interactive report to immediately update the score and vector, while preserving the original AI assessment. Supports Base, Threat, Environmental and Supplemental metrics. Reports follow your conversation language, with inline HTML first and standalone HTML fallback. No vulnerability exploitation, target execution or remote scoring service. Requires an existing trusted Node.js runtime; no npm runtime dependencies are installed.
+
+[cvss-assistant 0.1.1-oxo.1 package](packages/cvss-assistant/0.1.1-oxo.1/package.zip).

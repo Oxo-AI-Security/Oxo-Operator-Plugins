@@ -34,6 +34,14 @@
       "archiveSize": 1373089,
       "treeSha256": "9ee40a0f09722a880047ff7fcafa256fb6a4db6f868c4f50d2a0f379cd63ef23",
       "treeSize": 2236383
+    },
+    "cvss-assistant": {
+      "version": "0.1.1-oxo.1",
+      "path": "cvss-assistant-0.1.1-oxo.1.zip",
+      "archiveSha256": "c1f2c50745594f546f85477d7d5ecf71793bd463df35ad15980870dc19d9ee17",
+      "archiveSize": 56196,
+      "treeSha256": "3841f263871dc64a4da060fbd46a96293b8a69144903d0d5267f65d88b677a05",
+      "treeSize": 225764
     }
   }
 }
