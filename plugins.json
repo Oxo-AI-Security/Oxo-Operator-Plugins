@@ -26,6 +26,14 @@
       "archiveSize": 2749,
       "treeSha256": "a75572530ee6fc4890bd1c556b5897fbe956ed0949e3cd0a53e3a7d4d86c7cba",
       "treeSize": 4039
+    },
+    "risk-scanner": {
+      "version": "0.3.3-oxo.1",
+      "path": "risk-scanner-0.3.3-oxo.1.zip",
+      "archiveSha256": "a2e408cb4760fc202b0641ff42662d94fa1c259428264a8313b5ade16fa75199",
+      "archiveSize": 1373089,
+      "treeSha256": "9ee40a0f09722a880047ff7fcafa256fb6a4db6f868c4f50d2a0f379cd63ef23",
+      "treeSize": 2236383
     }
   }
 }

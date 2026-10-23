@@ -24,3 +24,15 @@ packages/
   semgrep/1.2.0/package.zip
   trivy/1.0.0/package.zip
 ```
+
+## Risk Scanner
+
+Review Skills, MCP tools, and plugins for security risks.
+
+Inspect declared capabilities, exposure, suspicious instructions, and risky data flows. Findings link to exact source evidence, with clear risk scores and completion status.
+
+Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packages. Plugin package coverage may be partial; unsupported components are identified. Scanned code and hooks are never executed. Reports follow your conversation language.
+
+Runs locally using the current task model. Requires Python 3.11 or newer with the scanner dependencies configured; plugin installation downloads the package only.
+
+[risk-scanner 0.3.3-oxo.1 package](packages/risk-scanner/0.3.3-oxo.1/package.zip).
