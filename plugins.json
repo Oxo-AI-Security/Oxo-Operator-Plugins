@@ -28,12 +28,12 @@
       "treeSize": 4039
     },
     "risk-scanner": {
-      "version": "0.3.3-oxo.1",
-      "path": "risk-scanner-0.3.3-oxo.1.zip",
-      "archiveSha256": "a2e408cb4760fc202b0641ff42662d94fa1c259428264a8313b5ade16fa75199",
-      "archiveSize": 1373089,
-      "treeSha256": "9ee40a0f09722a880047ff7fcafa256fb6a4db6f868c4f50d2a0f379cd63ef23",
-      "treeSize": 2236383
+      "version": "0.7.0-oxo.1",
+      "path": "risk-scanner-0.7.0-oxo.1.zip",
+      "archiveSha256": "f83756bff2c61b2f8d6af601489ad77963bcaf526d3dd626d03db2374f356cd2",
+      "archiveSize": 1310517,
+      "treeSha256": "6c2712731d0eedb5139df06291f6af1d43447b37f27805461261fd9fde6c0f15",
+      "treeSize": 2027395
     },
     "cvss-assistant": {
       "version": "0.1.1-oxo.1",
