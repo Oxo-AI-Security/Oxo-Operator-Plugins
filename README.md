@@ -62,3 +62,13 @@ Separate declared capabilities, exposure, supply-chain controls, integrity conce
 Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packages. Unsupported components remain explicit. Scanned code and hooks are never executed. Reports follow your conversation language.
 
 [risk-scanner 0.9.0-oxo.1 package](packages/risk-scanner/0.9.0-oxo.1/package.zip).
+
+## Risk Scanner
+
+Review Skills, MCP tools, and plugins with traceable source evidence.
+
+Separate declared capabilities, exposure, supply-chain controls, integrity concerns, and validated data/execution paths. Reports show the scope and supporting evidence without treating powerful legitimate features as proof of maliciousness.
+
+Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packages. Unsupported components remain explicit. Scanned code and hooks are never executed. Reports follow your conversation language.
+
+[risk-scanner 0.9.8-oxo.1 package](packages/risk-scanner/0.9.8-oxo.1/package.zip).
