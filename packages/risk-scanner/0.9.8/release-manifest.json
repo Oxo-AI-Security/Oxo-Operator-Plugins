@@ -1,0 +1,515 @@
+{
+  "plugin": "risk-scanner",
+  "version": "0.9.8",
+  "assessment_contract": "agent-review-v2",
+  "analysis_owner": "calling-harness-agent",
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "1f73efcb1cd668ccb11e82172c240abd2ba8d551bbfe22239e760b224cce9754",
+      "bytes": 301
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "09e8e9b128d78aafa362c030781923bedf08642c324deea4c5b41ed91392cc7b",
+      "bytes": 1798
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e91bd1719540e0ebbbc650a1d8270ec7ad62aaf45674fb16eb80d2b5b9424939",
+      "bytes": 60
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "2d3163b52fff14ac04c834afc036c0955797bc99f223e6394e436d834a3281c0",
+      "bytes": 2920
+    },
+    {
+      "path": "assets/logo.png",
+      "sha256": "aa5f2546d5c71aa3bda7d25cf9f3280f99aa75e26d89f287af18a15f417f1dfb",
+      "bytes": 1390894
+    },
+    {
+      "path": "engine/backend/__init__.py",
+      "sha256": "d6caf2da96830fbca43d5382936584548bd4c834e8c99f85665a9f864e9adf3b",
+      "bytes": 989
+    },
+    {
+      "path": "engine/backend/api/__init__.py",
+      "sha256": "0e0352c0feb838cd4e8bfca5f462761ea95831bc43e2af9e4e92563fad9caa18",
+      "bytes": 48
+    },
+    {
+      "path": "engine/backend/api/app.py",
+      "sha256": "9d24aa328866b823751fc25240333414cd0917ba509cff771c711a8be132c3f3",
+      "bytes": 2096
+    },
+    {
+      "path": "engine/backend/api/external_payloads.py",
+      "sha256": "2a5c5bf1d17d42071a26da4bb127874aa8691ca9aba72788fa5b06f01e4887d6",
+      "bytes": 13242
+    },
+    {
+      "path": "engine/backend/api/schemas.py",
+      "sha256": "6d582ea02c9df6d410d478a50b275babae462c5dda00cba9e49087ade1b9e529",
+      "bytes": 3322
+    },
+    {
+      "path": "engine/backend/application/__init__.py",
+      "sha256": "0c5847f31461cc2f885353104113272ca4e43db6590a2a53d9bd1e95baa28566",
+      "bytes": 76
+    },
+    {
+      "path": "engine/backend/application/identity_contract.py",
+      "sha256": "3f0f81fb6d5d4639a497d79f5588736973396c52d7c2a8382083360dbf35ff30",
+      "bytes": 946
+    },
+    {
+      "path": "engine/backend/application/identity_wire.py",
+      "sha256": "620a98756d452e175c4ee74a445fbb3eede4671ead6215b8af21496b24551b3c",
+      "bytes": 2205
+    },
+    {
+      "path": "engine/backend/application/mcp_scoring.py",
+      "sha256": "4e34f5d55f7b8ab13d8effe38d7921d49a71f113bc0a407bb050c26ecd97958c",
+      "bytes": 3581
+    },
+    {
+      "path": "engine/backend/application/model_settings.py",
+      "sha256": "3b96c9b524989f9cb9e1aebfb3390e5ba6cdd1cf543ad1df1a2b1ae37ac86c6e",
+      "bytes": 1056
+    },
+    {
+      "path": "engine/backend/application/operation_scope.py",
+      "sha256": "0b598d00cb2e18c08f50ac96feba561ec6c758dabe423bc2794f16a2c25c7c65",
+      "bytes": 1601
+    },
+    {
+      "path": "engine/backend/application/package_references.py",
+      "sha256": "f8556a421a789c78a726835493a98b69c2553c939743e664d927166765e1225c",
+      "bytes": 2332
+    },
+    {
+      "path": "engine/backend/application/score_jobs.py",
+      "sha256": "d8afe2484791e27558495906505516ef7aa0bb8529473d2d4e6faf62979511e8",
+      "bytes": 5453
+    },
+    {
+      "path": "engine/backend/application/skill_assessment.py",
+      "sha256": "cdd6510c837b2e3897d3ed3f53dbcbc44593be71c3eca56afc68cebdab7ea1cb",
+      "bytes": 288
+    },
+    {
+      "path": "engine/backend/application/skill_authority.py",
+      "sha256": "9d02fcc345f5b5fc7409343a5fc84abbd7b91e5ec6e1bbac3d6d23a743f19a52",
+      "bytes": 3742
+    },
+    {
+      "path": "engine/backend/application/skill_claims.py",
+      "sha256": "648926766f1e165957a64e4f75cf826fb053e7ae20aaf0c81b06bb0e1394036a",
+      "bytes": 3457
+    },
+    {
+      "path": "engine/backend/application/skill_context.py",
+      "sha256": "0c27a43126c45cbd7515740c3b8900b7c84f09b0e9e4d18600210fba8d794d9a",
+      "bytes": 10260
+    },
+    {
+      "path": "engine/backend/application/skill_evidence.py",
+      "sha256": "fbd6132be3fbd23e864922c7459efc04db378c45f1ba2b99978c0acbc253de8c",
+      "bytes": 12187
+    },
+    {
+      "path": "engine/backend/application/skill_flow_review.py",
+      "sha256": "a47c5204c1683201cf0041cde2827bafcbfa57a188b7832aec52ff79f3359f88",
+      "bytes": 4507
+    },
+    {
+      "path": "engine/backend/application/skill_navigation.py",
+      "sha256": "5980e0273c1ce2b25e185250c482723840506a8de4e3ce6ce477b62d7ac3f519",
+      "bytes": 2895
+    },
+    {
+      "path": "engine/backend/application/skill_profile.py",
+      "sha256": "c8dea158256e5bdfa60a671e213247968125f559b5dc2eb2b25851c48c6b4ce6",
+      "bytes": 9690
+    },
+    {
+      "path": "engine/backend/application/skill_profile_segments.py",
+      "sha256": "3481f1f1799cdf3354d67be52d0dec2b38ff03178ad68adad58571f2b3940cb6",
+      "bytes": 8092
+    },
+    {
+      "path": "engine/backend/application/skill_profile_types.py",
+      "sha256": "f6350e92cc22f0d5a5462b7360fd9ff2f70424962f2b9715a3e4c7951ed012e8",
+      "bytes": 5144
+    },
+    {
+      "path": "engine/backend/application/skill_profile_wire.py",
+      "sha256": "93ffa7d69c1084c6d5cc05178c291393ef118b6e04f2c5b005b32f7ec2b33e37",
+      "bytes": 2390
+    },
+    {
+      "path": "engine/backend/application/skill_prompt.py",
+      "sha256": "882f8e7393104d30d42c56418c9f4f38e331e0e9c6c27f3af6885a9e16b3fe3e",
+      "bytes": 9162
+    },
+    {
+      "path": "engine/backend/application/skill_response.py",
+      "sha256": "5cfca48b6158721683ef5dfd8c3c8a0c7a4a294220f235675839dcb03af39bef",
+      "bytes": 683
+    },
+    {
+      "path": "engine/backend/application/skill_response_contract.py",
+      "sha256": "8f238110a91045b44050bd4e474ee91ddc032c2d6981415878bca3db7f3d23f6",
+      "bytes": 7256
+    },
+    {
+      "path": "engine/backend/application/skill_review_contract.py",
+      "sha256": "10390f536ff287240e3fa5d9842f98c29dba6e83fbc58a42df198a1f14bb9715",
+      "bytes": 1218
+    },
+    {
+      "path": "engine/backend/application/skill_scanner.py",
+      "sha256": "da3a5e391471ee85c2e5185429a55f8aa4acf6e3980301c22bb7ff2daf2aa990",
+      "bytes": 123189
+    },
+    {
+      "path": "engine/backend/domain/__init__.py",
+      "sha256": "44fb15c481207756a0f4a0288995d34598a1d5071868c832e3ee3ee23d0e5367",
+      "bytes": 58
+    },
+    {
+      "path": "engine/backend/domain/mcp/__init__.py",
+      "sha256": "d608d13253cdb92832859ff507b6a0f1f7f0ab1ab4779f45ba668da44fccf92c",
+      "bytes": 26
+    },
+    {
+      "path": "engine/backend/domain/mcp/rules.py",
+      "sha256": "1d6a09d3cc5180d0a82a19d4e1598509c20479a1c1ab111beb3a39cfb5d15b18",
+      "bytes": 27699
+    },
+    {
+      "path": "engine/backend/domain/mcp/scoring.py",
+      "sha256": "bc9e9be7c3eec656c22cc3a80287161a31745cbff772c2aeefa46b8d0e0e6ab5",
+      "bytes": 53035
+    },
+    {
+      "path": "engine/backend/domain/semantic.py",
+      "sha256": "c617131deb53c361d3b11dc46cc6d23ee7102526544f18b877e381ba09047de1",
+      "bytes": 603
+    },
+    {
+      "path": "engine/backend/domain/skill/__init__.py",
+      "sha256": "8749e05b1d2593b9aa7e8903a39de49dd2d09217bfe7622db93ec8505e0489d3",
+      "bytes": 29
+    },
+    {
+      "path": "engine/backend/domain/skill/profile_policy.py",
+      "sha256": "568cd3a58d64654aa969102bbcffd61a1357330037141140b5d13b3ca32d6aae",
+      "bytes": 4695
+    },
+    {
+      "path": "engine/backend/infrastructure/__init__.py",
+      "sha256": "92f04eccbe07503ac5dce9bb5f2ff537b49118097acf0986c825d20ab87b5f0c",
+      "bytes": 73
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/__init__.py",
+      "sha256": "a273a334497ddd662b7d69e35197fd3b83cc0fdabf4cdc94f9b77af7597f735d",
+      "bytes": 28
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/capabilities.py",
+      "sha256": "8c2d6e9b83e9c7a428c42322101995cebc09ba1261b099b1085cfaef5079f06f",
+      "bytes": 2842
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/concurrency.py",
+      "sha256": "0f42151bb57584bb040a645e875cc1ed45f6ddcbd4612c74a53c379755b756e9",
+      "bytes": 689
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/contracts.py",
+      "sha256": "1466206efbe5e85f78325de122c87dfb908a723abc4d3ad44602b97043b50218",
+      "bytes": 5372
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/provider_config.py",
+      "sha256": "95f1dd87e1fa5229db502db58aca8d64286b3b763fddce08353aba424c1bf2dc",
+      "bytes": 1779
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/qwen.py",
+      "sha256": "01214a032d8cd9c6b0cb0467f0be26d0ff85d47bdeec95ef8a786d720205dede",
+      "bytes": 42721
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/receipt.py",
+      "sha256": "da864fee288404ebee52c47eece05e4a0fa198d757970eac9e7a0cf05baf8e7a",
+      "bytes": 966
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/schema_codec.py",
+      "sha256": "4dfa700c6f54899a758fb675a1e7da4c5f7497f74f7c86f6616774545acc299b",
+      "bytes": 1644
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/schema_validation.py",
+      "sha256": "6c5ddaefd10477396425ef9d1b7d35d0219ec2de3bd5a2caa331378abbb87616",
+      "bytes": 924
+    },
+    {
+      "path": "engine/backend/infrastructure/ai/structured_output.py",
+      "sha256": "95b951a1f561f0f9345ad206c0622c8f6bb74eb42a357c5cdc647dbe7391ec2e",
+      "bytes": 6050
+    },
+    {
+      "path": "engine/backend/infrastructure/mcp/__init__.py",
+      "sha256": "0d4e33c19058db3317cc5734da2484f9a428b2741e6cae04bb1a7f25eed16c11",
+      "bytes": 29
+    },
+    {
+      "path": "engine/backend/infrastructure/mcp/client.py",
+      "sha256": "c409116040373fca4344009eb045732b8aec2b83d5cc491f147228c2c22e8d76",
+      "bytes": 4032
+    },
+    {
+      "path": "engine/backend/infrastructure/persistence/__init__.py",
+      "sha256": "82b04caa3d55edb8f4d35f7eea6e5da6f1317c1a976b1c089f65c722b18ad764",
+      "bytes": 30
+    },
+    {
+      "path": "engine/backend/infrastructure/persistence/database.py",
+      "sha256": "e852aa9eb21815756ce0a84c4903d5f5418ef797899408c13f7d042f6d245fe5",
+      "bytes": 5244
+    },
+    {
+      "path": "engine/backend/infrastructure/persistence/store.py",
+      "sha256": "1452c48f3cc939a64b84811488df949929c7f6b49e9280e1f067f2f1f3f80708",
+      "bytes": 8308
+    },
+    {
+      "path": "engine/backend/infrastructure/skills/__init__.py",
+      "sha256": "f6e7e714616035c0942a709a41f2edda054be0404bd9755de50691f00591a4ba",
+      "bytes": 38
+    },
+    {
+      "path": "engine/backend/infrastructure/skills/repository.py",
+      "sha256": "ed1608d477fd07b55d964d6286911d79cd41a270ed7806bbc95bb578420c66a2",
+      "bytes": 4611
+    },
+    {
+      "path": "engine/backend/main.py",
+      "sha256": "4fa58d3b59610c030578d8358995db671fad69340d3cb786bf4694dbc71280a9",
+      "bytes": 37997
+    },
+    {
+      "path": "engine/requirements.txt",
+      "sha256": "504eafc0a930a2b09328a20f600331a33346a2a8868e59669acacaa39600d408",
+      "bytes": 134
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "98ce8152e4ab9be64ca53cb328621455fa376a4853e2fdb79fd193f1ace9c71a",
+      "bytes": 2030
+    },
+    {
+      "path": "README.md",
+      "sha256": "ce3dd17fdf2c5d0b97bda6761c55772c13ac6e30213657eaae1656904738e427",
+      "bytes": 3966
+    },
+    {
+      "path": "risk_plugin/__init__.py",
+      "sha256": "bf30e64f0a67f060e242634b99d654c8c4ee784909f21a9853ecb2af21ca2fa8",
+      "bytes": 76
+    },
+    {
+      "path": "risk_plugin/agent_cli.py",
+      "sha256": "ddeeb28bc95da8249a2319ee593891b6a2634f36c59a73733fbc0a977cda55cf",
+      "bytes": 8296
+    },
+    {
+      "path": "risk_plugin/assessment_contract.py",
+      "sha256": "1d42de26f85abf4824c3d41020e545168f262bfa23771c94bc8445724e0ee19e",
+      "bytes": 5662
+    },
+    {
+      "path": "risk_plugin/catalog.py",
+      "sha256": "22e55243585bd0ed15c8f1aba3dc68fbe97d0f2a8f11e60b60c4e50a7a4f4fed",
+      "bytes": 4724
+    },
+    {
+      "path": "risk_plugin/host_model.py",
+      "sha256": "6ba469f9fd76516008c1117cd127650fb48f86262c32113f4a10a2563077e5e4",
+      "bytes": 2659
+    },
+    {
+      "path": "risk_plugin/io.py",
+      "sha256": "7c43dddd2226f47248952c072ba1f4cc913060ec3dc0fb958a6c0a1dedde649b",
+      "bytes": 1753
+    },
+    {
+      "path": "risk_plugin/localization.py",
+      "sha256": "55b5bc5fcea68f51c15b1a361685c1c41ee4e87248bf916b2fdb30d0e2c5d207",
+      "bytes": 10838
+    },
+    {
+      "path": "risk_plugin/mcp_assessment.py",
+      "sha256": "6bb0dafd5412bc600414912502abe162b7034423ce3222cd8d6c07fe960cb6e0",
+      "bytes": 13164
+    },
+    {
+      "path": "risk_plugin/packages.py",
+      "sha256": "d58e72aa267c32319406fe90464dda76cbf2b53d559a0d43c50f9e4cdc9fda6f",
+      "bytes": 5108
+    },
+    {
+      "path": "risk_plugin/report.py",
+      "sha256": "e0fd9d5efb39baae513c22b4898f3a3a1a9c317998cc2a25a5e71e75565d755b",
+      "bytes": 8648
+    },
+    {
+      "path": "risk_plugin/report_html.py",
+      "sha256": "57061005fba264c0f47c282c0374a935f9d5a7c6d86847f1107676df1fde5cc8",
+      "bytes": 15414
+    },
+    {
+      "path": "risk_plugin/report_markdown.py",
+      "sha256": "046fc199ac2c30534ee9b693e238cbfff5c28a114468c724d9b5d995e9aba0b5",
+      "bytes": 3928
+    },
+    {
+      "path": "risk_plugin/skill_assessment.py",
+      "sha256": "6993b31e11a996f9353bd402b1697cd3f4862e21bc07f13a3a08d7772e9be3f1",
+      "bytes": 16451
+    },
+    {
+      "path": "risk_plugin/worker.py",
+      "sha256": "99d51461f4a2942ac6c98f1c1fe1cf6a72100db4531d74d9f43b9fea86ab1a18",
+      "bytes": 5150
+    },
+    {
+      "path": "risk_plugin/workspace.py",
+      "sha256": "2246a2de862d14095eaaa3f4c06e28cf233e4e6576ab1aee9b228119386c71d9",
+      "bytes": 7146
+    },
+    {
+      "path": "scan.py",
+      "sha256": "e414d1b5b3f6c83680ff2eb8720b4ed43583d6cf3dc8d0a0c3ad9d50b7571f40",
+      "bytes": 6058
+    },
+    {
+      "path": "skills/risk-scan/references/mcp-review.md",
+      "sha256": "0b82166c5b594d93f797d65a3d37afea997305f10fd15396f4815eb6dc1c015f",
+      "bytes": 3038
+    },
+    {
+      "path": "skills/risk-scan/references/plugin-review.md",
+      "sha256": "8c60197989563f4b835d6a8966d5e02a988a66d5d6bd7c15fc91a78b984549a1",
+      "bytes": 1071
+    },
+    {
+      "path": "skills/risk-scan/references/report-contract.md",
+      "sha256": "8c52f8653d7b012c0d225341494f322bb5a28d5d2f75f564fd5e80ac30cc86e8",
+      "bytes": 4705
+    },
+    {
+      "path": "skills/risk-scan/references/skill-review.md",
+      "sha256": "3a63a79578b0f1ed18fea62218908e75bd3589e4a15d8e0de1b7a2865578d78a",
+      "bytes": 6691
+    },
+    {
+      "path": "skills/risk-scan/SKILL.md",
+      "sha256": "61562fcf72beb63e655916eff74a8fd9d1e733211b8d3734389c12698e2b028b",
+      "bytes": 4146
+    },
+    {
+      "path": "ui/report-fragment.html",
+      "sha256": "363f25aae11ac63521486bc77c91b044b576b4151d74b04bd0228e0fa37fbf60",
+      "bytes": 6529
+    },
+    {
+      "path": "ui/report-v2-fragment.html",
+      "sha256": "ee63a31e349806fcb95e59d64dd47e468077389c38e5da42996da30c3abaebb5",
+      "bytes": 4281
+    },
+    {
+      "path": "ui/report-v3-fragment.html",
+      "sha256": "2e065885d4780327c1efb7b31b611d44cccbc134651cdba70cc5c105867137a5",
+      "bytes": 3002
+    },
+    {
+      "path": "ui/result.schema.json",
+      "sha256": "8396d6fc568d2e6df43a3c84139ab454055bacf7f971883d5d29366dd246812d",
+      "bytes": 13083
+    },
+    {
+      "path": "ui/rule-titles.json",
+      "sha256": "69b883c501fad1f2efd3a8f00c6e33176fcd80044af01c273052c7852434bd98",
+      "bytes": 15303
+    },
+    {
+      "path": "risk_plugin/assessment_policy.py",
+      "sha256": "0986a1b5bee1519508865830b07bc4ad642911cb18df605ce34d179e51248539",
+      "bytes": 5873
+    },
+    {
+      "path": "ui/report-v4-fragment.html",
+      "sha256": "19eabd860881e09fee5961fc3eba4c9e3a49b91295fe65dce5ebd9066a5ec0a1",
+      "bytes": 3161
+    },
+    {
+      "path": "risk_plugin/static_scoring.py",
+      "sha256": "1cdcb53a8b6fd2c469ebe78fa29477ca50da08d33740b94a6c9a5b7808d7e439",
+      "bytes": 5065
+    },
+    {
+      "path": "ui/report-v5-fragment.html",
+      "sha256": "1b4b0dd918099bc1c6da2217a82ec237d20ef1617680469eee0da7df866ca580",
+      "bytes": 3411
+    },
+    {
+      "path": "risk_plugin/skill_scoring.py",
+      "sha256": "bf9151626affe0a21219341db9002f23398fab4d38630ab0dadd42f14e98e2ba",
+      "bytes": 6069
+    },
+    {
+      "path": "risk_plugin/skill-scoring-policy.json",
+      "sha256": "78ab93260da25b0665a1b9734aecb35d81c990e644742fbc4062f9147834aed8",
+      "bytes": 12406
+    },
+    {
+      "path": "ui/report-v6-fragment.html",
+      "sha256": "721cad4563ce5a47f78fafeb686edc4936fe65454e1d3b2c46f89fa8445fe91d",
+      "bytes": 3724
+    },
+    {
+      "path": "ui/report-v7-fragment.html",
+      "sha256": "488e80182b7a04323846d78f2b04c7d799df2e5b2a25296b76810fa064b02b47",
+      "bytes": 3074
+    },
+    {
+      "path": "ui/report-v8-fragment.html",
+      "sha256": "c4e7b0375415fdf35a37b816b5d2f294f9207ad4dce40b087eb7d93e8c4050dc",
+      "bytes": 3522
+    },
+    {
+      "path": "ui/report-v9-fragment.html",
+      "sha256": "79706fc53f1ac9955968f161769f4d7b8074533cf7fb7a030bb8910d8344ec6c",
+      "bytes": 6802
+    },
+    {
+      "path": "ui/rule-conditions.json",
+      "sha256": "85dfb8db8bfa075153cfe301a28d19349cde109a190700dcc287fa35baf33976",
+      "bytes": 10339
+    },
+    {
+      "path": "risk_plugin/report_reference.py",
+      "sha256": "65fa311be048551292208deca770896a7504c02a520587c6b2fa5aae933ab104",
+      "bytes": 4043
+    }
+  ],
+  "archive": "risk-scanner-0.9.8.zip",
+  "archive_sha256": "3672c6af6e4db22f8bbb25264300a9711efe9345f711fe79cf8176d65c74a12f"
+}

@@ -72,3 +72,7 @@ Separate declared capabilities, exposure, supply-chain controls, integrity conce
 Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packages. Unsupported components remain explicit. Scanned code and hooks are never executed. Reports follow your conversation language.
 
 [risk-scanner 0.9.8-oxo.1 package](packages/risk-scanner/0.9.8-oxo.1/package.zip).
+
+### Risk Scanner 0.9.8 upstream package
+
+Frozen original archive, SHA-256 `3672c6af6e4db22f8bbb25264300a9711efe9345f711fe79cf8176d65c74a12f`. [Original 0.9.8 ZIP](packages/risk-scanner/0.9.8/package.zip) · [Release file manifest](packages/risk-scanner/0.9.8/release-manifest.json). Oxo uses the separately labelled 0.9.8-oxo.1 compatibility package listed in plugins.json.
