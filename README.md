@@ -17,25 +17,17 @@ This repository is public so plugin packages can be mirrored and inspected. **Do
 
 ## Layout
 
+The main branch carries the current package for each plugin listed in `plugins.json`. Git history preserves previous snapshots. GitHub Release assets remain available for clients that pin a version.
+
 ```text
 plugins.json
 packages/
+  cvss-assistant/0.1.1-oxo.1/package.zip
   nuclei/1.0.0/package.zip
+  risk-scanner/0.9.8-oxo.1/package.zip
   semgrep/1.2.0/package.zip
   trivy/1.0.0/package.zip
 ```
-
-## Risk Scanner
-
-Review Skills, MCP tools, and plugins for security risks.
-
-Inspect declared capabilities, exposure, suspicious instructions, and risky data flows. Findings link to exact source evidence, with clear risk scores and completion status.
-
-Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packages. Plugin package coverage may be partial; unsupported components are identified. Scanned code and hooks are never executed. Reports follow your conversation language.
-
-Runs locally using the current task model. Requires Python 3.11 or newer with the scanner dependencies configured; plugin installation downloads the package only.
-
-[risk-scanner 0.3.3-oxo.1 package](packages/risk-scanner/0.3.3-oxo.1/package.zip).
 
 ## CVSS Assistant
 
@@ -51,28 +43,4 @@ Separate declared capabilities, exposure, supply-chain controls, integrity conce
 
 Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packages. Unsupported components remain explicit. Scanned code and hooks are never executed. Reports follow your conversation language.
 
-[risk-scanner 0.7.0-oxo.1 package](packages/risk-scanner/0.7.0-oxo.1/package.zip).
-
-## Risk Scanner
-
-Review Skills, MCP tools, and plugins with traceable source evidence.
-
-Separate declared capabilities, exposure, supply-chain controls, integrity concerns, and validated data/execution paths. Reports show the scope and supporting evidence without treating powerful legitimate features as proof of maliciousness.
-
-Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packages. Unsupported components remain explicit. Scanned code and hooks are never executed. Reports follow your conversation language.
-
-[risk-scanner 0.9.0-oxo.1 package](packages/risk-scanner/0.9.0-oxo.1/package.zip).
-
-## Risk Scanner
-
-Review Skills, MCP tools, and plugins with traceable source evidence.
-
-Separate declared capabilities, exposure, supply-chain controls, integrity concerns, and validated data/execution paths. Reports show the scope and supporting evidence without treating powerful legitimate features as proof of maliciousness.
-
-Supports local Skill archives, captured MCP tool metadata, and plugin ZIP packages. Unsupported components remain explicit. Scanned code and hooks are never executed. Reports follow your conversation language.
-
 [risk-scanner 0.9.8-oxo.1 package](packages/risk-scanner/0.9.8-oxo.1/package.zip).
-
-### Risk Scanner 0.9.8 upstream package
-
-Frozen original archive, SHA-256 `3672c6af6e4db22f8bbb25264300a9711efe9345f711fe79cf8176d65c74a12f`. [Original 0.9.8 ZIP](packages/risk-scanner/0.9.8/package.zip) · [Release file manifest](packages/risk-scanner/0.9.8/release-manifest.json). Oxo uses the separately labelled 0.9.8-oxo.1 compatibility package listed in plugins.json.
