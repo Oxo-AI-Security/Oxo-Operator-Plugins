@@ -19,14 +19,6 @@
       "treeSha256": "8f18eb66d41af4d59a01738ff394a530f1418fd570ffed6826849d09629c770a",
       "treeSize": 766572
     },
-    "nuclei": {
-      "version": "1.0.0",
-      "path": "nuclei-1.0.0.zip",
-      "archiveSha256": "5be00fa30942b2fd60b58a53b0b684a4d5a42bfaa158fb4c84cadc29e7a37049",
-      "archiveSize": 2749,
-      "treeSha256": "a75572530ee6fc4890bd1c556b5897fbe956ed0949e3cd0a53e3a7d4d86c7cba",
-      "treeSize": 4039
-    },
     "risk-scanner": {
       "version": "0.9.8-oxo.1",
       "path": "risk-scanner-0.9.8-oxo.1.zip",

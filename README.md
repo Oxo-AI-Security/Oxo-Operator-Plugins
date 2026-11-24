@@ -5,7 +5,7 @@ Public distribution repository for Oxo Operator's security plugin packages.
 ## Contents
 
 - `plugins.json` — the release manifest: plugin version, package path, archive SHA-256/size, and the package tree SHA-256/size that Oxo verifies after extraction.
-- `packages/<plugin>/<version>/package.zip` — the plugin package itself (manifest, skill, assets). No provider binaries are included; Trivy, Semgrep and Nuclei runtimes are installed by Oxo from their own pinned upstream distribution.
+- `packages/<plugin>/<version>/package.zip` — the plugin package itself (manifest, skill, assets). No provider binaries are included; Trivy and Semgrep runtimes are installed by Oxo from their own pinned upstream distribution.
 
 ## Integrity
 
@@ -23,7 +23,6 @@ The main branch carries the current package for each plugin listed in `plugins.j
 plugins.json
 packages/
   cvss-assistant/0.1.1-oxo.1/package.zip
-  nuclei/1.0.0/package.zip
   risk-scanner/0.9.8-oxo.1/package.zip
   semgrep/1.2.0/package.zip
   trivy/1.0.0/package.zip
